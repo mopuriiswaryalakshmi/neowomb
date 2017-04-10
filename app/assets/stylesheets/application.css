@@ -317,31 +317,31 @@ img{
 #sliderArea {
   display: inline;
   float: left;
-  margin-top: 70px;
-  width: 70%;
+  margin-top: 50px;
+  width: 50%;
 }
 .top-slider{
 	float: left;
 	display: inline;
 	margin-bottom: 0;
-	width: 70%;
+	width: 50%;
 }
 .top-slide-inner{
 	float: left;
 	display: inline;
 	height: 600px;
-	width: 70%;
+	width: 50%;
 
 }
 .slider-img{
 	float: left;
 	display: inline;
-	height: 70%;
-	width: 70%;
+	height: 50%;
+	width: 50%;
 }
 .slider-img>img{
-	width: 70%;
-	height: 70%;
+	width: 50%;
+	height: 50%;
 }
 .top-slider .slick-prev,
 .top-slider .slick-next {
