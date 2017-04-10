@@ -5,6 +5,8 @@
       <div class="menu_area">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">  
           <div class="container">
+           <a class="navbar-brand" href="#"><span><h1><strong>Neowomb</strong></h1></span>
+               </a><br/><br/> 
            <% if user_signed_in? %>
             <div class="navbar-header">
               <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
@@ -17,8 +19,7 @@
               <!-- LOGO -->              
               <!-- TEXT BASED LOGO -->
               
-               <a class="navbar-brand" href="#"><span><h1><strong>Neowomb</strong></h1></span>
-               </a><br/><br/> 
+              
                
 
               <!-- IMG BASED LOGO  -->
@@ -27,6 +28,7 @@
             <div id="navbar" class="navbar-collapse collapse">
             
               <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+                      <!-- <a class=" pull-right"  %><%# review.user.username.capitalize %> </strong><br/><br/> -->
                       <li><a href="<%= stores_path %>">Home</a></li>
                       <li><a href="<%= aboutuspages_path %>">ABOUT US</a></li>
                       <li><a href="<%= services_path %>">SERVICES</a></li>
@@ -54,8 +56,8 @@
               </button>
               <!-- LOGO -->              
               <!-- TEXT BASED LOGO -->
-                <a class="navbar-brand" href="#"><span><h1><strong>Neowomb</strong></h1></span>
-               </a><br/><br/>          
+              <!--   <a class="navbar-brand" href="#"><span><h1><strong>Neowomb</strong></h1></span>
+               </a><br/><br/>     -->      
               <!-- IMG BASED LOGO  -->
               <!--  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>   -->                    
             </div>
@@ -73,7 +75,7 @@
                     <!-- <button type="button" class="btn btn-default btn-lg" data-toggle="modal"  data-target="#ishu">Log in</button> 
                     <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#signUp">Signup</button> -->
                     <li><%= link_to "Login", new_user_session_path %></li>
-                 <li><%= link_to "Signup", new_user_registration_path %></li> 
+                    <li><%= link_to "Signup", new_user_registration_path %></li> 
                   </ul>
                 </li>
               </ul>           
