@@ -318,30 +318,30 @@ img{
   display: inline;
   float: left;
   margin-top: 70px;
-  width: 100%;
+  width: 70%;
 }
 .top-slider{
 	float: left;
 	display: inline;
 	margin-bottom: 0;
-	width: 100%;
+	width: 70%;
 }
 .top-slide-inner{
 	float: left;
 	display: inline;
 	height: 600px;
-	width: 100%;
+	width: 70%;
 
 }
 .slider-img{
 	float: left;
 	display: inline;
-	height: 100%;
-	width: 100%;
+	height: 70%;
+	width: 70%;
 }
 .slider-img>img{
-	width: 100%;
-	height: 100%;
+	width: 70%;
+	height: 70%;
 }
 .top-slider .slick-prev,
 .top-slider .slick-next {
