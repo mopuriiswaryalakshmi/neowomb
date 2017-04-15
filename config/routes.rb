@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   resources :gallerys, only: [:index]
   resources :reviews
 
+  get '/services/pediatric'
+
   #get 'stores/index'
   #get 'aboutuspages/index'
   #get 'services/index'
