@@ -47,9 +47,7 @@ class ServicesController < ApplicationController
 			redirect_to service_path(@service), notice: "successfully destroyed"
 	end
 
-	def Pediatric
-		
-	end
+	
 
 	private
 	
