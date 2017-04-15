@@ -2,12 +2,13 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {registrations: 'registrations'}
   resources :stores, only: [:index]
   resources :aboutuspages, only: [:index]
-  resources :services
+  #resources :services
   resources :contactuspages, only: [:index]
   resources :gallerys, only: [:index]
   resources :reviews
 
   get '/services/pediatric'
+  get '/services/index'
 
   #get 'stores/index'
   #get 'aboutuspages/index'
